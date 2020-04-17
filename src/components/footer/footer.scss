@@ -1,0 +1,22 @@
+@import '../../styles/colour-palette.scss';
+
+.footer-container {
+	margin: 0px;
+	position: fixed;
+	bottom: 0px;
+	height: 30px;
+	background-color: $nav-bar-background-color;
+	box-shadow: -6px -9px 6px -6px #8c898c;
+	width: 100%;
+
+	a {
+		color: rgba(29, 29, 29, 0.8);
+		text-decoration: none;
+	}
+
+	a:hover {
+		color:#00A0C6;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}

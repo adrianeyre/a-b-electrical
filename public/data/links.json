@@ -1,0 +1,23 @@
+[
+	{
+		"image": {
+			"font": "brand.faFacebook",
+			"link": "https://www.facebook.com/abelectricalnottinghamshire",
+			"type": "link"
+		}
+	},
+	{
+		"image": {
+			"font": "free.faPhone",
+			"link": "contact",
+			"type": "anchor"
+		}
+	},
+	{
+		"image": {
+			"font": "free.faEnvelope",
+			"link": "contact",
+			"type": "anchor"
+		}
+	}
+]

@@ -1,0 +1,18 @@
+[
+	{
+		"title": "About",
+		"link": "about"
+	},
+	{
+		"title": "Services",
+		"link": "service"
+	},
+	{
+		"title": "Contact",
+		"link": "contact"
+	},
+	{
+		"title": "Testimonials",
+		"link": "testimonials"
+	}
+]

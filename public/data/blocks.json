@@ -1,0 +1,50 @@
+[
+	{
+		"body": "PEACE OF MIND WITH NAPIT & TRUSTMARK",
+		"image": {
+			"font": "brand.faGithub",
+			"link": "service",
+			"type": "anchor"
+		}
+	},
+	{
+		"body": "SEE OUR WORK HERE ON FACEBOOK",
+		"image": {
+			"font": "free.faPlayCircle",
+			"link": "https://www.facebook.com/abelectricalnottinghamshire",
+			"type": "link"
+		}
+	},
+	{
+		"body": "FREE QUOTES AT COMPETITIVE PRICES",
+		"image": {
+			"font": "free.faPlayCircle",
+			"link": "contact",
+			"type": "anchor"
+		}
+	},
+	{
+		"body": "LEARN MORE ABOUT ANDY & THE TEAM",
+		"image": {
+			"font": "free.faPlayCircle",
+			"link": "about",
+			"type": "anchor"
+		}
+	},
+	{
+		"body": "HERE'S A LIST OF WHAT WE DO",
+		"image": {
+			"font": "free.faPlayCircle",
+			"link": "service",
+			"type": "anchor"
+		}
+	},
+	{
+		"body": "WHAT OUR CUSTOMERS ARE SAYING",
+		"image": {
+			"font": "free.faPlayCircle",
+			"link": "testimonials",
+			"type": "anchor"
+		}
+	}
+]
