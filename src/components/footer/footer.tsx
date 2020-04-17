@@ -9,7 +9,7 @@ export default class Footer extends Component<{}, {}> {
 	public render() {
 		return <div className="footer-container">
 			<div className="centre-text">
-				@2020 A B Electrical &amp; Maintenance| <a href="https://github.com/adrianeyre/a-b-electricals" target="_blank"><FontAwesomeIcon icon={ faGithub } /> Adrian Eyre</a>
+				@2020 A B Electrical &amp; Maintenance| <a href="https://github.com/adrianeyre/a-b-electricals" target="_blank"><FontAwesomeIcon icon={ faGithub } /> Website Design</a>
 			</div>
 		</div>
 	}
