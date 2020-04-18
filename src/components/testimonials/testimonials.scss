@@ -1,0 +1,24 @@
+.testimonials-container {
+	.testimonial-box {
+		margin: 0.5em;
+		padding: 1em;
+		min-height: 210px;
+
+		.body-text {
+			color: white;
+			font-size: 2em;
+		}
+
+		.link {
+			position: absolute;
+			bottom: 1em;
+			right: 2em;
+
+
+			.svg-inline--fa {
+				width: 2em;
+				height: 2em;
+			}
+		}
+	}
+}

@@ -17,6 +17,8 @@ import Contact from './components/contact/contact'
 import Bottom from './components/bottom/bottom';
 import Modal from './components/modal/modal';
 import Footer from './components/footer/footer';
+import Testimonials from './components/testimonials/testimonials';
+import ImageList from './components/image-list/image-list';
 
 import './App.css';
 
@@ -42,7 +44,7 @@ declare global {
 export default class App extends Component<{}, IAppState> {
 	private dataService: DataService;
 	private cookieParser: CookieParser;
-	private dataFiles = ['menu', 'about', 'links', 'blocks', 'service'];
+	private dataFiles = ['menu', 'about', 'links', 'blocks', 'service', 'testimonials', 'images'];
 
 	constructor(props: {}) {
 		super(props);
@@ -111,7 +113,7 @@ export default class App extends Component<{}, IAppState> {
 				<div className="main">
 					<Element className="block" name="about">
 						<Image imageName="kitchen.jpg" />
-						<Text data={ this.state.data.about } imageName="kitchen.jpg" imagePosition="right" />
+						<Text data={ this.state.data.about } imageName="kitchen.jpg" imagePosition="right" page={ <ImageList data={ this.state.data.images } width="100px" /> }/>
 						<Blocks data={ this.state.data.blocks } scrollToAnchor={ this.scrollToAnchor } showModal={ this.showModal } />
 					</Element>
 
@@ -121,6 +123,10 @@ export default class App extends Component<{}, IAppState> {
 
 					<Element className="block" name="service">
 						<Text data={ this.state.data.service } imageName="info.png" imagePosition="right" />
+					</Element>
+
+					<Element className="block" name="testimonials">
+						<Testimonials data={ this.state.data.testimonials } />
 					</Element>
 				</div>
 

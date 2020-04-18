@@ -1,0 +1,22 @@
+[
+	{
+		"image": {
+			"filename": "/images/logos/original-logo.png"
+		}
+	},
+	{
+		"image": {
+			"filename": "/images/logos/napit.png"
+		}
+	},
+	{
+		"image": {
+			"filename": "/images/logos/trust-mark-logo.png"
+		}
+	},
+	{
+		"image": {
+			"filename": "/images/logos/quote.png"
+		}
+	}
+]

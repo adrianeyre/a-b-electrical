@@ -25,7 +25,6 @@ export default class Text extends Component<ITextProps, ITextState> {
 					<img width="100%" height="100%" src={`/images/backgrounds/${ this.props.imageName }`} />
 				</div> }
 				<div className={ this.props.imageName ? 'col-md-6' : 'col-md-12' }>
-					{ this.props.page }
 					{ this.state.data && this.state.data.map((item: IDataService, textIndex: number) => <div key={ `text-item-${ textIndex }` } className="text-item">
 						<div className="title">
 							{ item.image && <a href={ item.image.link } target="_blank"><img src={ item.image.filename } /></a> }
@@ -38,6 +37,7 @@ export default class Text extends Component<ITextProps, ITextState> {
 							{ item.points.map((point: IPoints, pointIndex: number) => <li key={ pointIndex }>{ point }</li>) }
 						</ul> }
 					</div>) }
+					{ this.props.page }
 				</div>
 				{ this.props.imageName && this.props.imagePosition === 'right' && <div className="col-md-6">
 					<img width="100%" height="100%" src={`/images/backgrounds/${ this.props.imageName }`} />
