@@ -1,12 +1,14 @@
 import * as React from 'react';
 import { Component } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import IDataService from '../../services/interface/data-service-interface';
-
 import Links from '../links/links';
 import INavigationProps from './interface/navigation-props';
 import INavigationState from './interface/navigation-state';
+
 import './navigation.css';
 
 export default class Navigation extends Component<INavigationProps, INavigationState> {
@@ -28,8 +30,8 @@ export default class Navigation extends Component<INavigationProps, INavigationS
 				<div className="nav-area">
 					<div className="top-nav-area">
 						<div className="contact-info">
-							<span className="telephone">T: 07816 920771</span> |
-							<span className="email"> E: abelectrical29@hotmail.com </span>
+							<span className="telephone"><FontAwesomeIcon icon={ faPhone } /> 07816 920771</span> |
+							<span className="email"><FontAwesomeIcon icon={ faEnvelope } /> abelectrical29@hotmail.com </span>
 						</div>
 						<hr />
 					</div>
