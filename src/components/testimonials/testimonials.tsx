@@ -24,7 +24,7 @@ export default class Testimonials extends Component<ITestimonialsProps, ITestimo
 				{ this.state.data && this.state.data.map((item: IDataService, testimonialIndex: number) => <div key={ `testimonial-${ testimonialIndex }` } className="col-md-6">
 					<div className="testimonial-box" >
 						{ item.link &&
-							<iframe src={ `https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F${ item.link }%3A0&width=500` } width="500" height="316" scrolling="no" frameBorder={ 0 } allowTransparency={ true } allow="encrypted-media" />
+							<iframe src={ `https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F${ item.link }%3A0&width=500` } width="100%" height="316" scrolling="no" frameBorder={ 0 } allowTransparency={ true } allow="encrypted-media" />
 						}
 					</div>
 				</div> )}

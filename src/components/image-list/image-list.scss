@@ -1,5 +1,6 @@
 .image-list-container {
 	display: flex;
+	overflow-x: auto;
 
 	.image-list-box {
 		margin-right: 1em;
