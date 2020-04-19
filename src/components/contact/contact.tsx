@@ -12,9 +12,9 @@ export default class Contact extends Component<{}, {}> {
 			<h2 className="centre-text">CONTACT US</h2>
 			<div className="contact-area">
 				<ul>
-					<li><FontAwesomeIcon icon={ faPhone } /><span>07816 920771</span></li>
+					<li><FontAwesomeIcon icon={ faPhone } /><span>07816 920771 / 01623 431440</span></li>
 					<li><FontAwesomeIcon icon={ faEnvelope } /><span>abelectrical29@hotmail.com</span></li>
-					<li><a href='#' onClick={ this.handleFacebookClick }><FontAwesomeIcon icon={ faFacebook } /><span>Facebook</span></a></li>
+					<li><a href='#' onClick={ this.handleFacebookClick }><FontAwesomeIcon icon={ faFacebook } /><span>abelectricalnottinghamshire</span></a></li>
 					<li><FontAwesomeIcon icon={ faHome } /><div className="address-container">
 						<div>A. B. Electrical &amp; Maintenance</div>
 						<div>27 Greenbank Drive</div>

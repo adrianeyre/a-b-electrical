@@ -1,5 +1,5 @@
 # Website - [http://a-belectrical.co.uk](http://a-belectrical.co.uk)
-#### Technologies: TypeScript, React, CircleCI, PHP, SCSS, HTML
+#### Technologies: TypeScript, React, CircleCI, SCSS, HTML
 
 ## Index
 * [Installation](#Install)
