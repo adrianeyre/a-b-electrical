@@ -1,9 +1,9 @@
 .image-list-container {
 	display: flex;
-	overflow-x: auto;
+	overflow-x: hidden;
 	margin-bottom: 1em;
 
 	.image-list-box {
-		margin-right: 1em;
+		margin-right: 10px;
 	}
 }

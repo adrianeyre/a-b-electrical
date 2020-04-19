@@ -113,7 +113,7 @@ export default class App extends Component<{}, IAppState> {
 				<div className="main">
 					<Element className="block" name="about">
 						<Image imageName="kitchen.jpg" />
-						<Text data={ this.state.data.about } imageName="kitchen.jpg" imagePosition="right" page={ <ImageList data={ this.state.data.images } width="100px" /> }/>
+						<Text data={ this.state.data.about } imageName="kitchen.jpg" imagePosition="right" page={ <ImageList data={ this.state.data.images } /> }/>
 						<Blocks data={ this.state.data.blocks } scrollToAnchor={ this.scrollToAnchor } showModal={ this.showModal } />
 					</Element>
 
