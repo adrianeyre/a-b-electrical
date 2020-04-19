@@ -30,8 +30,8 @@ export default class Navigation extends Component<INavigationProps, INavigationS
 				<div className="nav-area">
 					<div className="top-nav-area">
 						<div className="contact-info">
-							<span className="telephone"><FontAwesomeIcon icon={ faPhone } /> 07816 920771</span> |
-							<span className="email"><FontAwesomeIcon icon={ faEnvelope } /> abelectrical29@hotmail.com </span>
+							<span className="telephone"><FontAwesomeIcon icon={ faPhone } /> <a href="tel:07816920771">07816 920771</a></span> |
+							<span className="email"><FontAwesomeIcon icon={ faEnvelope } /> <a href="mailto:abelectrical29@hotmail.com">abelectrical29@hotmail.com</a></span>
 						</div>
 						<hr />
 					</div>
@@ -43,7 +43,11 @@ export default class Navigation extends Component<INavigationProps, INavigationS
 									{ item.link && <a onClick={ this.colaspeNavbar.bind(this, item.link) }>{ item.title }</a> }
 								</Nav.Link>) }
 								
-								<Nav.Link className="burger-links"><Links data={ this.state.linksData } showModal={ this.props.showModal } scrollToAnchor={ this.props.scrollToAnchor } /></Nav.Link>
+								<Nav.Link className="burger-links">
+									<div className="telephone"><FontAwesomeIcon icon={ faPhone } /> <a href="tel:07816920771">07816 920771</a></div>
+									<div className="email"><FontAwesomeIcon icon={ faEnvelope } /> <a href="mailto:abelectrical29@hotmail.com">abelectrical29@hotmail.com</a></div>
+									<Links data={ this.state.linksData } showModal={ this.props.showModal } scrollToAnchor={ this.props.scrollToAnchor } />
+								</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</div>
