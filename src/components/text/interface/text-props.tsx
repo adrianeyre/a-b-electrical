@@ -5,4 +5,5 @@ export default interface ITextProps {
 	page?: JSX.Element;
 	imageName?: string;
 	imagePosition?: 'left' | 'right' | undefined;
+	imageRadius?: string;
 }

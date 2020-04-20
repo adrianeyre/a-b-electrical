@@ -113,24 +113,22 @@ export default class App extends Component<{}, IAppState> {
 				<div className="main">
 					<Element className="block" name="about">
 						<Image imageName="kitchen.jpg" />
-						<Text data={ this.state.data.about } imageName="kitchen.jpg" imagePosition="right" page={ <ImageList data={ this.state.data.images } /> }/>
+						<Text data={ this.state.data.about } imageName="kitchen.jpg" imagePosition="right" imageRadius="10px" page={ <ImageList data={ this.state.data.images } /> }/>
 						<Blocks data={ this.state.data.blocks } scrollToAnchor={ this.scrollToAnchor } showModal={ this.showModal } />
 					</Element>
 
 					<Element className="block" name="contact">
-						<Text page={ <Contact /> } imageName="contact.png" imagePosition="left" />
+						<Text page={ <Contact /> } imageName="contact.png" imagePosition="left" imageRadius="10px" />
 					</Element>
 
 					<Element className="block" name="service">
-						<Text data={ this.state.data.service } imageName="info.png" imagePosition="right" />
+						<Text data={ this.state.data.service } imageName="info.png" imagePosition="right" imageRadius="10px" />
 					</Element>
 
 					<Element className="block" name="testimonials">
 						<Testimonials data={ this.state.data.testimonials } />
 					</Element>
 				</div>
-
-				
 
 				{ this.state.height > 0.01 && <div className="bottom">
 					<Bottom scrollToTop={ this.scrollToTop }/>

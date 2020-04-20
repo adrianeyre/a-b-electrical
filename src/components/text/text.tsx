@@ -22,7 +22,7 @@ export default class Text extends Component<ITextProps, ITextState> {
 		return <div className="text-container">
 			<div className="row">
 				{ this.props.imageName && this.props.imagePosition === 'left' && <div className="col-md-6">
-					<img width="100%" height="100%" src={`/images/backgrounds/${ this.props.imageName }`} />
+					<img width="100%" height="100%" src={`/images/backgrounds/${ this.props.imageName }`} style={ this.styleImage() } />
 				</div> }
 				<div className={ this.props.imageName ? 'col-md-6' : 'col-md-12' }>
 					{ this.state.data && this.state.data.map((item: IDataService, textIndex: number) => <div key={ `text-item-${ textIndex }` } className="text-item">
@@ -40,9 +40,13 @@ export default class Text extends Component<ITextProps, ITextState> {
 					{ this.props.page }
 				</div>
 				{ this.props.imageName && this.props.imagePosition === 'right' && <div className="col-md-6">
-					<img width="100%" height="100%" src={`/images/backgrounds/${ this.props.imageName }`} />
+					<img width="100%" height="100%" src={`/images/backgrounds/${ this.props.imageName }`} style={ this.styleImage() } />
 				</div> }
 			</div>
 		</div>
 	}
+
+	private styleImage = () => ({
+		borderRadius: this.props.imageRadius ? this.props.imageRadius : undefined,
+	})
 }
