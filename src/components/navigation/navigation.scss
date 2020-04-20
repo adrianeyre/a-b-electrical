@@ -37,7 +37,7 @@
 	.navbar {
 		height: 7.05em;
 		background-color: $nav-bar-background-color;
-		box-shadow: -6px 9px 6px -2px #8c898c;
+		box-shadow: -6px 9px 6px -2px $nav-navbar-box-shadow-colour;
 
 		a {
 			color: $sidebar-colour-link !important;

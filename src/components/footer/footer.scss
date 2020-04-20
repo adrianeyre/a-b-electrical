@@ -6,16 +6,16 @@
 	bottom: 0px;
 	height: 30px;
 	background-color: $nav-bar-background-color;
-	box-shadow: -6px -9px 6px -6px #8c898c;
+	box-shadow: -6px -9px 6px -6px $footer-box-shadow;
 	width: 100%;
 
 	a {
-		color: rgba(29, 29, 29, 0.8);
+		color: $footer-colour-link;
 		text-decoration: none;
 	}
 
 	a:hover {
-		color:#00A0C6;
+		color: $footer-colour-link-hover;
 		text-decoration: none;
 		cursor: pointer;
 	}
