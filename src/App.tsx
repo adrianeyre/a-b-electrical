@@ -118,7 +118,7 @@ export default class App extends Component<{}, IAppState> {
 					</Element>
 
 					<Element className="block" name="contact">
-						<Text page={ <Contact /> } imageName="contact.png" imagePosition="left" imageRadius="10px" />
+						<Text page={ <Contact page={ <ImageList data={ this.state.data.images } /> } /> } imageName="contact.png" imagePosition="left" imageRadius="10px" />
 					</Element>
 
 					<Element className="block" name="service">
