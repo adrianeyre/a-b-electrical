@@ -20,3 +20,11 @@
 		cursor: pointer;
 	}
 }
+
+@media (max-width: 670px) {
+	.footer-container {
+		.extra-text {
+			display: none;
+		}
+	}
+}
