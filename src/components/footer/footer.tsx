@@ -17,11 +17,11 @@ export default class Footer extends Component<{}, {}> {
 
 	public render() {
 		return <div className="footer-container">
-			<div className="centre-text">
+			<footer className="centre-text">
 				<span>&#169;{ this.thisYear } A B Electrical &amp; Maintenance |</span>
 				<span className="extra-text"> All rights reserved | NAPIT REGISTERED &#38; TRUSTMARK |</span>
 				<span> <a href="https://github.com/adrianeyre/a-b-electrical" target="_blank"><FontAwesomeIcon icon={ faGithub } /> Website Design</a></span>
-			</div>
+			</footer>
 		</div>
 	}
 }
