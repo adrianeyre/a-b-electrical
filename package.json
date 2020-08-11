@@ -67,6 +67,7 @@
 		"@types/react-slick": "^0.23.4",
 		"@types/react-test-renderer": "^16.9.0",
 		"acorn": "^7.1.1",
+		"dot-prop": "^5.2.0",
 		"elliptic": "^6.5.3",
 		"enzyme": "^3.10.0",
 		"enzyme-adapter-react-16": "^1.15.2",
