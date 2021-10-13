@@ -11,7 +11,8 @@
 ```shell
 $ git clone https://github.com/adrianeyre/a-b-electrical
 $ cd a-b-electrical
-$ npm i
+$ npm install --global yarn
+$ yarn
 ```
 
 ## <a name="Tests">Running the Tests</a>

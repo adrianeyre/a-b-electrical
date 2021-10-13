@@ -20,7 +20,7 @@ import Footer from './components/footer/footer';
 import Testimonials from './components/testimonials/testimonials';
 import ImageList from './components/image-list/image-list';
 
-import './App.css';
+import './App.scss';
 
 interface IAppState {
 	data: any;

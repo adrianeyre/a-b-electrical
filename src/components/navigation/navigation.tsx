@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import { FC, useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -7,7 +7,7 @@ import IDataService from '../../services/interface/data-service-interface';
 import Links from '../links/links';
 import INavigationProps from './interface/navigation-props';
 
-import './navigation.css';
+import './navigation.scss';
 
 const Navigation: FC<INavigationProps> = (props: INavigationProps) => {
 	const [isCollasped, setIsCollasped] = useState<boolean>(true);

@@ -1,9 +1,9 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 
 import IDataService from '../../services/interface/data-service-interface';
 import ITestimonialsProps from './interface/testimonials-props';
 
-import './testimonials.css';
+import './testimonials.scss';
 
 const Testimonials: FC<ITestimonialsProps> = (props: ITestimonialsProps) => {
 	return <div className="testimonials-container">

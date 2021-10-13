@@ -1,11 +1,11 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faHome } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 import IContactProps from './interface/contact-props';
 
-import './contact.css';
+import './contact.scss';
 
 const Contact: FC<IContactProps> = (props: IContactProps) => {
 	const handleFacebookClick = () => window.open('https://www.facebook.com/abelectricalnottinghamshire', '_blank');

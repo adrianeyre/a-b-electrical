@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { Component, RefObject } from 'react';
+import { Component, RefObject, createRef } from 'react';
 import { Modal as ModalComponent, InputGroup, Form, FormControl, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faEnvelopeOpenText, faStickyNote, faShare, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
@@ -31,7 +30,7 @@ export default class EmailBody extends Component<IEmailBodyProps, IEmailBodyStat
 			recaptchaValue: null,
 		}
 
-		this.recaptchaRef = React.createRef();
+		this.recaptchaRef = createRef();
 	}
 
 	public render() {
