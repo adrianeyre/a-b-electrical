@@ -26,6 +26,7 @@
 	.logo {
 		position: fixed;
 		top: 0px;
+		z-index: 100;
 		left: calc(100% / 2 - 5em);
 
 		img {
