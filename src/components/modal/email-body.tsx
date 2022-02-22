@@ -38,9 +38,9 @@ export default class EmailBody extends Component<IEmailBodyProps, IEmailBodyStat
 			<Form method="post" action="/scripts/email.php">
 				<ModalComponent.Body>
 					<InputGroup className="mb-3">
-						<InputGroup.Prepend>
+						<InputGroup>
 							<InputGroup.Text id="basic-addon1"><FontAwesomeIcon icon={ faUser } /></InputGroup.Text>
-						</InputGroup.Prepend>
+						</InputGroup>
 						<FormControl
 							required={ true }
 							name="name"
@@ -52,9 +52,9 @@ export default class EmailBody extends Component<IEmailBodyProps, IEmailBodyStat
 					</InputGroup>
 
 					<InputGroup className="mb-3">
-						<InputGroup.Prepend>
+						<InputGroup>
 							<InputGroup.Text id="basic-addon1"><FontAwesomeIcon icon={ faEnvelopeOpenText } /></InputGroup.Text>
-						</InputGroup.Prepend>
+						</InputGroup>
 						<FormControl
 							type="email"
 							name="email"
@@ -67,9 +67,9 @@ export default class EmailBody extends Component<IEmailBodyProps, IEmailBodyStat
 					</InputGroup>
 
 					<InputGroup>
-						<InputGroup.Prepend>
+						<InputGroup>
 							<InputGroup.Text><FontAwesomeIcon icon={ faStickyNote } /></InputGroup.Text>
-						</InputGroup.Prepend>
+						</InputGroup>
 						<FormControl
 							required={ true }
 							name="message"

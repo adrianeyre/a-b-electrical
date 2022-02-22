@@ -19,12 +19,12 @@ const DefaultBody = (props: IDefaultBody) => {
 	return <div>
 		<ModalComponent.Body>
 			{ props.item.image && <a href={ props.item.image.link } target="_blank">
-			<img src={ props.item.image.filename } />
+				<img src={ props.item.image.filename } />
 			</a> }
 
 			{ props.item.tags && <div className="card-tags">
 			<FontAwesomeIcon icon={ fonts.free.faTags } />
-			{ props.item.tags.map((tag: ITags, tagInbdex: number) => <Badge className="card-tag" key={ `card-tag-${ tagInbdex }` } pill={ true } variant="primary">
+			{ props.item.tags.map((tag: ITags, tagInbdex: number) => <Badge className="card-tag" key={ `card-tag-${ tagInbdex }` } pill={ true } bg="primary">
 				{ tag }
 			</Badge>) }
 			</div> }
