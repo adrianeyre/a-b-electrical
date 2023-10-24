@@ -1,19 +1,22 @@
-import { shallow } from 'enzyme';
+/**
+ * @jest-environment jsdom
+ */
+import { render } from '@testing-library/react';
 
-import IModalrops from '../interface/modal-props';
+import IModalProps from '../interface/modal-props';
 import Modal from '../modal';
 
 describe('Modal', () => {
 	const mockRouteProp: any = jest.fn();
 
-	const defaultProps: IModalrops = {
+	const defaultProps: IModalProps = {
 		data: undefined,
 		modalType: undefined,
 		closeModal: mockRouteProp,
 	};
 
 	it('Should render correctly', () => {
-		const modelComponent = shallow(<Modal { ...defaultProps }/>);
+		const modelComponent = render(<Modal { ...defaultProps }/>);
 
 		expect(modelComponent).toMatchSnapshot();
 	});
