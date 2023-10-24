@@ -3,8 +3,6 @@ import { FC } from 'react';
 import IDataService from '../../services/interface/data-service-interface';
 import ITestimonialsProps from './interface/testimonials-props';
 
-import './testimonials.scss';
-
 const Testimonials: FC<ITestimonialsProps> = (props: ITestimonialsProps) => {
 	return <div className="testimonials-container">
 		<h2 className="centre-text">TESTIMONIALS</h2>

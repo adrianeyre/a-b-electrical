@@ -4,8 +4,6 @@ import IDataService from '../../services/interface/data-service-interface';
 import IImageListProps from './interface/image-list-props';
 import IImageListState from './interface/image-list-state';
 
-import './image-list.scss';
-
 export default class ImageList extends Component<IImageListProps, IImageListState> {
 	private container: any;
 

@@ -5,8 +5,6 @@ import IDataService from '../../services/interface/data-service-interface'
 import Links from '../links/links';
 import ISideBarProps from './interface/side-bar-props';
 
-import './side-bar.scss';
-
 const SideBar: FC<ISideBarProps> = (props: ISideBarProps) => {
 	return <div className="side-bar-container">
 		<div className="image">

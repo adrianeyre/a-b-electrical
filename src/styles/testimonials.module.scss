@@ -1,0 +1,30 @@
+@import './colour-palette.scss';
+
+.testimonials-container {
+	.testimonial-box {
+		margin: 0.5em;
+		padding: 1em;
+		min-height: 210px;
+
+		iframe {
+			border-radius: 10px;
+		}
+
+		.body-text {
+			color: $testimonials-text-colour;
+			font-size: 2em;
+		}
+
+		.link {
+			position: absolute;
+			bottom: 1em;
+			right: 2em;
+
+
+			.svg-inline--fa {
+				width: 2em;
+				height: 2em;
+			}
+		}
+	}
+}

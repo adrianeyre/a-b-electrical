@@ -1,0 +1,58 @@
+@import './colour-palette.scss';
+@import './app.module.scss';
+@import './blocks.module.scss';
+@import './bottom.module.scss';
+@import './carousel.module.scss';
+@import './contact.module.scss';
+@import './footer.module.scss';
+@import './image.module.scss';
+@import './image-block.module.scss';
+@import './image-list.module.scss';
+@import './links.module.scss';
+@import './message.module.scss';
+@import './modal.module.scss';
+@import './navigation.module.scss';
+@import './side-bar.module.scss';
+@import './testimonials.module.scss';
+@import './text.module.scss';
+@import './title.module.scss';
+
+body {
+	margin: 0px;
+	color: $body-colour-font;
+	background-color: $body-main-background-color;
+	box-sizing: border-box;
+	font-size: 1.2rem;
+	font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+h1 {
+	font-size: 6rem;
+	line-height: 5.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: $primary-colour-text;
+	font-size: 3rem;
+	line-height: 5.5rem;
+	font-weight: 700;
+}
+
+h3 {
+	color: $primary-colour-text;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	font-weight: 700;
+}
+
+.centre-text {
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	body {
+		padding: 0px;
+	}
+}

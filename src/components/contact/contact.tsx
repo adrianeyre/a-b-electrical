@@ -5,8 +5,6 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 import IContactProps from './interface/contact-props';
 
-import './contact.scss';
-
 const Contact: FC<IContactProps> = (props: IContactProps) => {
 	const handleFacebookClick = () => window.open('https://www.facebook.com/abelectricalnottinghamshire', '_blank');
 

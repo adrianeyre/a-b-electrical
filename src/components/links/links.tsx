@@ -8,8 +8,6 @@ import IDataService from '../../services/interface/data-service-interface';
 import IModalType from '../../services/interface/modal-type-interface';
 import ILinksProps from './interface/links-props';
 
-import './links.scss';
-
 const Links: FC<ILinksProps> = (props: ILinksProps) => {
 	const fonts = {
 		free: FreeFonts,

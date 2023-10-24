@@ -6,8 +6,6 @@ import IDataService from '../../services/interface/data-service-interface';
 import IModalType from '../../services/interface/modal-type-interface';
 import IBlocksProps from './interface/blocks-props';
 
-import './blocks.scss';
-
 const Blocks: FC<IBlocksProps> = (props: IBlocksProps) => {
 	const evenBoxBackgroundColour: string = '#25A7E1';
 	const oddBoxBackgroundColour: string = '#056B93';
