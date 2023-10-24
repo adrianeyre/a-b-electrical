@@ -7,8 +7,6 @@ import IDataService from '../../services/interface/data-service-interface';
 import Links from '../links/links';
 import INavigationProps from './interface/navigation-props';
 
-import './navigation.scss';
-
 const Navigation: FC<INavigationProps> = (props: INavigationProps) => {
 	const [isCollasped, setIsCollasped] = useState<boolean>(true);
 

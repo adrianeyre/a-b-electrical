@@ -4,8 +4,6 @@ import IDataService from '../../services/interface/data-service-interface'
 import IImage from '../../services/interface/image-interface';
 import ITextProps from './interface/text-props';
 
-import './text.scss';
-
 const Text: FC<ITextProps> = (props: ITextProps) => {
 	const styleImage = () => ({
 		borderRadius: props.imageRadius ? props.imageRadius : undefined,

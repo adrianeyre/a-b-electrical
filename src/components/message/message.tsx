@@ -3,8 +3,6 @@ import { Alert } from 'react-bootstrap';
 
 import IMessageProps from './interface/message-props';
 
-import './message.scss';
-
 const Message: FC<IMessageProps> = (props: IMessageProps) => {
 	const [show, setShow] = useState<boolean>(!!props.message);
 

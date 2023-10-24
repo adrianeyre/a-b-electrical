@@ -1,4 +1,4 @@
-@import '../../styles/colour-palette.scss';
+@import './colour-palette.scss';
 
 .navigation-container {
 	.navbar {
@@ -9,14 +9,18 @@
 			.contact-info {
 				.telephone {
 					margin-right: 1em;
+					
 					.svg-inline--fa {
 						margin-right: 5px;
+						height: 19.2px;
 					}
 				}
 				.email {
 					margin-left: 1em;
+
 					.svg-inline--fa {
 						margin-right: 5px;
+						height: 19.2px;
 					}
 				}
 			}
